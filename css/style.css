@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'beaconscript';
-    src: url('fonts/beacon-webfont.eot');
-    src: url('fonts/beacon-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/beacon-webfont.woff2') format('woff2'),
-         url('fonts/beacon-webfont.woff') format('woff'),
-         url('fonts/beacon-webfont.ttf') format('truetype'),
-         url('fonts/beacon-webfont.svg#beaconscript') format('svg');
+    src: url('../fonts/beacon-webfont.eot');
+    src: url('../fonts/beacon-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/beacon-webfont.woff2') format('woff2'),
+         url('../fonts/beacon-webfont.woff') format('woff'),
+         url('../fonts/beacon-webfont.ttf') format('truetype'),
+         url('../fonts/beacon-webfont.svg#beaconscript') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -15,6 +15,55 @@
 }
 
 h1{
-	font-family: 'beaconscript', sans-serif;	
+	font-family: 'beaconscript', sans-serif;
 }
 
+.marco{
+	padding:10px;
+/*	border-color: black;
+	border-style: solid;
+	border-width: 1px 1px 1px 1px;
+	border-radius: 4px;*/
+	height:400px;
+}
+
+/*.fondo-carrusel{
+	background-color: transparent !important; 
+}*/
+
+.encabezado{
+	background: url("../assets/img/manchas.jpg") no-repeat right bottom;
+	background-position:0px -170px, center;
+	background-size: 200% 265%;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none !important;
+}
+
+.carousel-control.left span, .carousel-control.right span{
+    font-size: 4em !important;
+    margin-top: -1em !important;
+}
+
+.carousel-control.left span{
+	margin-left:-50px;
+}
+
+.carousel-control.right span{
+	margin-right:-50px;
+}
+
+.imagen-slide{
+	-moz-box-shadow: 0 0 20px black;
+	-webkit-box-shadow: 0 0 20px black;
+	box-shadow: 0 0 20px black;
+	border-width: 1px;
+	border-style: solid;
+	border-color: grey;
+}
+
+.blanco{
+	color:white !important;
+	text-shadow: 2px 2px black;
+}

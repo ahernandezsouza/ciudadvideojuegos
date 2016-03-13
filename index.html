@@ -20,24 +20,112 @@
     <![endif]-->
   </head>
   <body>
-    <div class="jumbotron">
+    <div class="jumbotron encabezado">
       <div class="container">
         <div class="row">
-          <h1>¡Bienvenido a Ciudad Videojuegos!</h1>
+          <div class="col-md-push-1 col-md-10">
+            <h1 class="text-center blanco">¡Bienvenido a Ciudad Videojuegos!</h1>
+            </br>
+            <p class="blanco">¡Todos los juegos que ves a continuación fueron creados por alumnos del Colegio Ciudad de México! Juega con todos ellos, y no te olvides de votar por el mejor al final de la página!</p>
+          </div>
         </div>
+        <div id="carousel-example-generic" class="carousel slide marco fondo-carrusel" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-push-1 col-md-5">
+                    <img src="assets/img/slide1.png" alt="P.S.B." class="img-responsive imagen-slide">
+                  </div>
+                  <div class="col-md-push-1 col-md-5 text-center">
+                    </br>
+                    <p class="blanco">¡Escapa de los laberintos sin tocar a los enemigos!</p>
+                    <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+                      JUGAR P.S.B.
+                    </button>
+                  </div>                  
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-push-1 col-md-5">
+                    <img src="assets/img/slide2.png" alt="Tardis" class="img-responsive imagen-slide">
+                  </div>
+                  <div class="col-md-push-1 col-md-5 text-center">
+                    </br>
+                    <p class="blanco">¡Ayuda al Doctor a maniobrar al Tardis para detener a los Daleks!</p>
+                  </div>                  
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-push-1 col-md-5">
+                    <img src="assets/img/slide3.png" alt="Bob Esponja" class="img-responsive imagen-slide">
+                  </div>
+                  <div class="col-md-push-1 col-md-5">
+                    <p class="blanco text-center">Bob Esponja quiere proteger la receta de las cangreburgers. ¡Ayudalo a librar los obstáculos!</p>
+                  </div>                  
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-push-1 col-md-5">
+                    <img src="assets/img/slide4.png" alt="Sombrero Adivinador" class="img-responsive imagen-slide">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-push-1 col-md-5">
+                    <img src="assets/img/slide5.png" alt="Top Snake" class="img-responsive imagen-slide">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-push-1 col-md-5">
+                    <img src="assets/img/slide6.png" alt="The Rebinding of Isaac" class="img-responsive imagen-slide">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Controls -->
+          <a class="left carousel-control fondo-carrusel" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control fondo-carrusel" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+
       </div>
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h2>Tardis</h2>
-          <h2>Pong</h2>
-          <h2>Serpiente</h2>
-          <h2>Sombrero</h2>
-        </div>
-      </div>
-    </div>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
